@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400649130429",
+    "project_id": "yabichat-220ff",
+    "storage_bucket": "yabichat-220ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400649130429:android:0dd7c184b92e168af502d4",
+        "android_client_info": {
+          "package_name": "com.example.yabichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400649130429-fj0va0viuelrd8eb3j0v8iqsd9uu6di8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiUGnnkkSUpeiOcUTe4d3Jr5-IyUtcvMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400649130429-fj0va0viuelrd8eb3j0v8iqsd9uu6di8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
