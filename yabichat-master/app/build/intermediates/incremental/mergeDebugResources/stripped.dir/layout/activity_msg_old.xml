@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.MsgActivity">
+
+<androidx.constraintlayout.widget.Group
+    android:id="@+id/group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<com.google.android.material.bottomappbar.BottomAppBar
+    android:id="@+id/chat_title"
+    style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+    android:layout_width="match_parent"
+    android:layout_height="120sp"
+    android:layout_gravity="bottom"
+    app:backgroundTint="@android:color/primary_text_light"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/chatFooter"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="4dp"
+        app:backgroundTint="@android:color/primary_text_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <ImageView
+    android:id="@+id/userPhoto"
+    android:layout_width="80sp"
+    android:layout_height="80sp"
+    app:srcCompat="@drawable/user_photo"
+    tools:layout_editor_absoluteX="66dp"
+    tools:layout_editor_absoluteY="16dp" />
+
+<ImageView
+    android:id="@+id/btn_back"
+    android:layout_width="50sp"
+    android:layout_height="50sp"
+    app:srcCompat="@drawable/icon_arrow"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="31dp" />
+
+<TextView
+    android:id="@+id/msg_userName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="User Name"
+    android:textColor="#FFFFFF"
+    tools:layout_editor_absoluteX="159dp"
+    tools:layout_editor_absoluteY="43dp"
+    tools:textSize="24sp" />
+
+<ImageView
+    android:id="@+id/icon_options"
+    android:layout_width="50sp"
+    android:layout_height="50sp"
+    app:srcCompat="@drawable/icon_options"
+    tools:layout_editor_absoluteX="345dp"
+    tools:layout_editor_absoluteY="31dp" />
+
+<ImageView
+    android:id="@+id/icon_phone"
+    android:layout_width="50sp"
+    android:layout_height="50sp"
+    app:srcCompat="@drawable/icon_phone"
+    tools:layout_editor_absoluteX="295dp"
+    tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/icon_file"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        app:srcCompat="@drawable/icon_file"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/img_input_msg"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        app:srcCompat="@drawable/input_msg"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/icon_emoticon"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        app:srcCompat="@drawable/icon_emoticon"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/icon_voice"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        app:srcCompat="@drawable/icon_voice"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_recyclerView"
+        android:layout_width="410dp"
+        android:layout_height="542dp"
+        android:layout_above="@id/chatFooter"
+        android:layout_below="@id/chat_title"
+        android:visibility="invisible"
+        tools:itemCount="20"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:listitem="@layout/item_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

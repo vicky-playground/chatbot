@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_settings"
+        android:title="聯絡人列表"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:title="聊天室"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_sign_out"
+        android:title="登出"
+        app:showAsAction="never"/>
+</menu>

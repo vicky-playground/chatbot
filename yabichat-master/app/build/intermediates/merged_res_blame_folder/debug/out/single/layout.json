@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chats.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_msg_old.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/activity_msg_old.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_message.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/item_message.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_contacts.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/item_contacts.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_msg.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/activity_msg.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_contacts.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_chats.xml",
+        "source": "/Users/vickykuo/Downloads/chatbot-main/yabichat-master/app/src/main/res/layout/item_chats.xml"
+    }
+]

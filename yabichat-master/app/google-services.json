@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164394689192",
+    "firebase_url": "https://chatbot-41402-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatbot-41402",
+    "storage_bucket": "chatbot-41402.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164394689192:android:c97f5c1b53adc655ebd89d",
+        "android_client_info": {
+          "package_name": "com.example.yabichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164394689192-a53et15sinc7nrcb6u34ph5huf7b7vop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yabichat",
+            "certificate_hash": "40b71ac7ffb943fffa00d68d56f822638e7626d6"
+          }
+        },
+        {
+          "client_id": "164394689192-npifodrpj9h4vf7u7a06sc2bpfp4tn40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvThh5Ep5CJ7_kA-x6XK0qDlDtHysVuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164394689192-npifodrpj9h4vf7u7a06sc2bpfp4tn40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
