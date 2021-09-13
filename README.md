@@ -22,3 +22,8 @@ Building the code is as simple as:
    5. Once the build is over, run on the device using menu ```Run -> Run (app)```
    6. That's it, you should see the login/signup welcome screen.
    7. Login/sign up using your email and you can start using the app you've just built to communicate.
+
+Tutorials
+=
+* 利用Firebase做一個簡單的Android聊天室小app(https://www.tpisoftware.com/tpu/articleDetails/2129)
+* Android Chat Tutorial: Building A Realtime Messaging App(https://www.scaledrone.com/blog/android-chat-tutorial/)
