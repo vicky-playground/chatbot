@@ -25,5 +25,5 @@ Building the code is as simple as:
 
 Tutorials
 =
-* 利用Firebase做一個簡單的Android聊天室小app(https://www.tpisoftware.com/tpu/articleDetails/2129)
-* Android Chat Tutorial: Building A Realtime Messaging App(https://www.scaledrone.com/blog/android-chat-tutorial/)
+* 利用Firebase做一個簡單的Android聊天室小app (https://www.tpisoftware.com/tpu/articleDetails/2129)
+* Android Chat Tutorial: Building A Realtime Messaging App (https://www.scaledrone.com/blog/android-chat-tutorial/)
