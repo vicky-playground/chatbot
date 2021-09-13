@@ -4,16 +4,21 @@
 
 About the project
 =
-1. Crawl the data from Taiwan's most prestigious recruiting website.
-2. Use Developer Tools to inspect the website and then scrape the data
-3. Export the data to xlsx
+1. Develop a simple messaging app with android project which main function is like LINE, Whatsapp, etc... It keeps you connected with the people who matter most. 
+2. Use Firebase to build the authentication, realtime database and crash logs.
+3. Display the most recent msg and person who dropped a message most recently.
 
 
-Project setup
+Build and Run
 =
-      !pip install xlsxwriter
-      import requests
-      from bs4 import BeautifulSoup
-      import json
-      import pandas as pd
 
+Android Studio version: 4.1.2
+Building the code is as simple as:
+
+   1. Launch Android Studio
+   2. Open the project from the folder where you have downloaded the code using menu ```File -> Open```
+   3. Build using menu ```Build -> Rebuild Project```
+   4. It may take a while to build the project for the first time.
+   5. Once the build is over, run on the device using menu ```Run -> Run (app)```
+   6. That's it, you should see the login/signup welcome screen.
+   7. Login/sign up using your email and you can start using the app you've just built to communicate.
